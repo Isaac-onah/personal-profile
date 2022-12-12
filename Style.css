@@ -4,14 +4,15 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
+    
 }
 
 #navbar{
     width: 100%;
     background-color: #be3144;
-    position:fixed;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
 }
 
 #navlist{
@@ -27,4 +28,15 @@ li{
 }
 li:hover{
     background-color: #45567d;
+}
+footer{
+    background-color: #303841;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: white;
+    border-top: 4px solid #be3144;
+
+
 }
